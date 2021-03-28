@@ -1,3 +1,4 @@
+/** Font Face "Cairo" **/
 @font-face {
     font-family: 'Cairo';
     src: url('../assets/fonts/Cairo-Regular.eot');
@@ -11,11 +12,37 @@
     font-display: swap;
 }
 
-body{
-    background-color: #CCC;
-    font-family: 'Cairo';
+/**** Global Style ****/
+
+/** Sections **/
+.section-padding{
+    padding: 75px 0;
 }
 
+.section-header {
+    margin-bottom: 67px;
+}
+
+.section-header .section-header__heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section-header .section-header__title-image-container{
+    width: 245px;
+}
+
+.section-header .section-header__title-image-container img{
+    width: 100%;
+}
+
+
+body{
+    font-family: 'Cairo';
+    height: 50000px;
+}
+
+/**** Start Main Header ****/
 .main-header__contact-nav{
     background-color: #c4398c;
     padding: 10px 0;
@@ -58,7 +85,9 @@ body{
 .main-header__navbar .navbar-nav .nav-item .nav-link:hover{
     color: #c4398c;
 }
+/**** End Main Header ****/
 
+/**** Start Main Slider ****/
 .main-slider{
     width: 100%;
     background-size: cover;
@@ -88,7 +117,7 @@ body{
 .main-slider .owl-carousel .slide .overlay{
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgb(0 0 0 / 70%)
 }
 
 
@@ -129,12 +158,18 @@ body{
     font-size: 16px;
 }
 
+.focia-btn,
 .main-slider .owl-carousel .slide .slide-content button{
     font-size: 22px;
     background-color: #c4398c;
     color: #FFF;
     border-radius: 0;
     padding: 16px 50px;
+    margin-top: 15px;
+}
+
+.focia-btn:hover{
+    color: #FFF;
 }
 
 .main-slider .owl-carousel .owl-nav button{
@@ -160,6 +195,26 @@ body{
 .owl-theme .owl-nav [class*=owl-]:hover{
     background-color: transparent;
 }
+/**** End Main Slider ****/
+.about-us__content{
+    font-size: 18px;
+    color: #191414;
+}
+
+.about-us__image-contanir{
+    height: 450px;
+    margin: 0 auto 0 0;
+    overflow: hidden;
+    box-shadow: 2px 5px 7px 1px rgb(0 0 0 / 70%)
+}
+
+.about-us__image-contanir img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/****************************** Media Query ******************************/
 
 /* X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) { 
@@ -209,9 +264,16 @@ body{
         font-size: 14px;
     }
     
+    .focia-btn,
     .main-slider .owl-carousel .slide .slide-content button{
         font-size: 18px;
         padding: 14px 30px;
+    }
+    
+    .about-us__image-contanir{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
     }
 }
 
@@ -232,10 +294,24 @@ body{
     .main-slider .owl-carousel .owl-nav button {
         font-size: 45px;
     }
+
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+
+    .section-padding{
+        padding: 60px 0;
+    }
+    
+    .section-header .section-header__heading{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .section-header .section-header__title-image-container{
+        width: 200px
+    }
 
     .main-slider .owl-carousel .slide .slide-content{
         max-width: 250px;
@@ -249,9 +325,23 @@ body{
         color: #FFF;
         font-size: 12px;
     }
-    
+
+    .focia-btn,
     .main-slider .owl-carousel .slide .slide-content button{
         font-size: 18px;
         padding: 12px 25px;
+    }
+
+    .about-us__content{
+        font-size: 16px;
+    }
+
+    .about-us__image-contanir{
+        height: auto;
+    }
+    
+    .about-us__image-contanir img{
+        width: 100%;
+        height: 100%;
     }
 }

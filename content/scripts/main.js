@@ -5,8 +5,8 @@ $(document).ready(function(){
         nav: true,
         dots: false,
         autoplay: true,
-        autoplayspeed: 1500,
-        smartspeed: 1500,
+        autoplayspeed: 5000,
+        smartspeed: 5000,
         rtl:true
     })
 });
