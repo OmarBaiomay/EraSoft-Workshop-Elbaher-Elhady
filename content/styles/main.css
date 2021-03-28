@@ -111,28 +111,29 @@ body{
     height: calc(100vh - 162px);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 
 .main-slider .owl-carousel .slide .overlay{
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 70%)
+    background-color: rgb(0 0 0 / 70%);
 }
 
 
 .main-slider .owl-carousel .slide-1{
-    background-image: url('../assets/images/backgrounds/main-bg.jpg');
+    background-image: url('../assets/images/backgrounds/slide-1-min.jpg');
 }
 
 
 .main-slider .owl-carousel .slide-2{
-    background-image: url('../assets/images/backgrounds/main-bg.jpg');
+    background-image: url('../assets/images/backgrounds/slide-2-min.jpg');
 }
 
 
 .main-slider .owl-carousel .slide-3{
-    background-image: url('../assets/images/backgrounds/main-bg.jpg');
+    background-image: url('../assets/images/backgrounds/slide-3-min.jpg');
 }
 
 .main-slider .owl-carousel .slide .slide-content{
