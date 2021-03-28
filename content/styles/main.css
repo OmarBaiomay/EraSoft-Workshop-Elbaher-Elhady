@@ -215,6 +215,34 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.all-items .card{
+    width: 90%;
+}
+
+.all-items .card img{
+    height: 250px;
+}
+
+.all-items .card .card-body .card-title{
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #c4398c;
+}
+.all-items .card .card-footer .focia-btn{
+    font-size: 15px;
+    padding: 5px 25px; 
+}
+
+.all-items .card .card-footer .price-container{
+    font-size: 18px;
+    font-weight: bold;
+    color: #c4398c;
+}
+
+.all-items .card .card-footer .price-container .price{
+    margin-right: 5px;
+}
 /**** End All Items ****/
 
 
@@ -279,7 +307,7 @@ body{
     }
     
     .about-us__image-contanir{
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
     }
