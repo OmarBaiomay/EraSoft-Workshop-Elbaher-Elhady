@@ -245,7 +245,30 @@ body{
 }
 /**** End All Items ****/
 
+.contact-us .section-header .section-header__heading{
+    color: #c4398c;
+}
 
+.contact-us form input,
+.contact-us form textarea{
+    padding: 15px 18px;
+    margin-bottom: 22px;
+    border: 2px solid #ccc;
+}
+
+.contact-us form textarea{
+    min-height: 165px;
+    max-height: 165px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.contact-us form input:active,
+.contact-us form input:focus,
+.contact-us form textarea:active,
+.contact-us form textarea:focus{
+    border-color: #c4398c;
+}
 
 /****************************** Media Query ******************************/
 
