@@ -22,7 +22,7 @@
 <body dir="rtl">
 
     <!-- Start Header -->
-    <header class="main-header">
+    <header class="main-header" id="home">
         <!-- Start "Contact Info and Social Media Upper Nav" -->
         <div class="main-header__contact-nav d-none d-lg-block">
             <div class="container">
@@ -56,16 +56,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">الرئيسية</a>
+                            <a class="nav-link active" href="#home">الرئيسية</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">من نحن</a>
+                            <a class="nav-link" href="#about-us">من نحن</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">الأنواع والأصناف</a>
+                            <a class="nav-link" href="#all-items">الأنواع والأصناف</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">اتصل بنا</a>
+                            <a class="nav-link" href="#contact-us">اتصل بنا</a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +113,7 @@
     <!-- End Main Slider -->
 
     <!-- Start About Us Section -->
-    <section class="about-us section-padding">
+    <section class="about-us section-padding" id="about-us">
         <header class="section-header d-flex flex-column align-items-center justify-content-md-center">
             <h2 class="section-header__heading">
                 من نحن
@@ -146,7 +146,7 @@
     <!-- End About Us Section -->
     
     <!-- Start ALl Items Section-->
-    <section class="all-items">
+    <section class="all-items" id="all-items">
         <div class="overlay section-padding">
             <header class="section-header d-flex flex-column align-items-center justify-content-md-center">
                 <h2 class="section-header__heading text-white">
@@ -236,7 +236,7 @@
     <!-- End ALl Items Section-->
 
     <!-- Start Contact Us Section-->
-    <section class="contact-us section-padding">
+    <section class="contact-us section-padding" id="contact-us">
         <header class="section-header d-flex flex-column align-items-center justify-content-md-center">
             <h2 class="section-header__heading">
                 تواصل معنا
@@ -274,8 +274,7 @@
         </div>
     </section>
     <!-- End Contact Us Section-->
-    
-    
+
     <!-- Start Footer -->
     <footer class="main-footer">
         <div class="container">
@@ -292,8 +291,6 @@
         </div>
     </footer>
     <!-- End Footer-->
-
-
 
     <!-- jQuery File -->
     <script src="content/scripts/vendor/jQuery_v3.6.0.js"></script>
